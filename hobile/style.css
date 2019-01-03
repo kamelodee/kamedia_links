@@ -1,0 +1,100 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    font-size: px;
+    line-height: 2em;
+
+
+}
+
+.demo{
+    background-image: url("chip.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px goldenrod solid;
+    border-radius: px px 0px 0px;
+    height: 100%;
+    color:whitesmoke;
+    padding: 0px 20px 0px 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    font: 2em sans-ser;
+    opacity: 0.70;
+}
+nav{
+    text-align: right;
+    margin-top: 4Px;
+    padding-bottom: 20px;
+    word-spacing: 1px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    text-transform: uppercase;
+    margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 3px brown solid;
+    border-radius: 80px 0px 80px 0px;
+    padding: 7px;
+    font-size: 1em;
+    background-color: white;
+}
+a:hover{
+    background-color:orangered;
+}
+header{
+    
+   
+    
+    border-radius: px 0pxpx 0px;
+    
+}
+header .logo:hover{
+    background-color: orange;
+}
+
+.logo img{
+    margin-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    border: 3px brown solid;
+    border-radius: 40px 0px 40px 0px;
+}
+img .fooo{
+    width: 600px;
+    height: 700px;
+}
+.rice{
+    text-align: center;
+    border: 3px gold double;
+    background-color: orange;
+    color: white;
+}
+.rice:hover{
+    background-color:tomato;
+}
+.rice img{
+    width: 100%;
+    height: 90%;
+}
+.rice h1,p{
+    font-family: serif;
+    font-size: 1.5em;
+}
+.logo{
+    background-color:tomato;
+    border: 3px gold double;
+    border-radius: 0px 3px 0px 3px;
+}
+@media(max-width:500px){
+ 
+}

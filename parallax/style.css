@@ -1,0 +1,73 @@
+body,html{
+	height: 100%;
+	margin:0;
+	font-family:serif;
+	font-size:1.3em;
+	width:95%;
+}
+.pimg1,.pimg2,.pimg3{
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pimg1{
+	background-image:url("img/tt.jpg");
+	min-height:90%;
+	background-attachment: fixed;
+}
+.pimg2{
+	background-image: url(img/to.jpg);
+	min-height: 40%;
+	background-attachment: fixed;
+}
+.pimg3{
+	background-image: url(img/nn.jpg);
+	min-height: 50%;
+	background-attachment: fixed;
+}
+.section-light{
+	text-align:center;
+	background-color:burlywood;
+	color: #000;
+	padding: 1em;
+}
+.section-dark{
+	text-align:center;
+	background-color:darkslategray;
+	color: white;
+	padding: 1em;
+}
+
+
+@media{
+	min-width: 20px;
+}
+
+.ptext{
+	position: absolute;
+	top:50%;
+	width: 100%;
+	text-align:center;
+	color: #000;
+	font-size: 40px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.ptext .border{
+	background-color: transparent;
+	color:whitesmoke;
+	padding:20px;
+	
+}
+.ptext .border1{
+	background-color: transparent;
+	color:white;
+	
+	padding: 17px;
+}@media(max-width:568px){
+	.pimg1,.pimg2,.pimg3{
+		background-attachment:scroll;
+	}
+}

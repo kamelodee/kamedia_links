@@ -1,0 +1,138 @@
+body,html{
+    margin: auto;
+    padding: 0;
+    font-family: new 'Times New Roman', Times, serif;
+    font-size: em;
+    line-height: 18px;
+}
+header{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px red solid;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 3px;
+    border: 2px white double;
+}
+li:hover{
+    background-color: aqua;
+}
+span{ 
+    background-color: black;
+    padding: 2px;
+    border:1px white solid ;
+    
+    
+}
+span:hover{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    word-spacing: 5px;
+
+}
+nav{
+    text-align: end;
+    padding-right: 7em;
+    padding-bottom: 1em;
+    word-spacing: 1em;
+    
+}
+body{
+    margin: auto;
+}
+input{
+    display: block;
+    width: 30%;
+    height: 20%;
+    font-size: 1.em;
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+
+}
+input:hover{
+    background-color: red;
+    color: white;
+}
+label{
+    font-size: 1.4em;
+    color: #fff;
+    line-height: 1.5em;
+} 
+form{
+    display:block;
+}
+.section1{
+     background-image:url("cons.jpeg");
+     width: 100%;
+     height: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     text-align: ; 
+     margin: 1em;
+     padding: 2em; 
+     border:2px transparent solid;
+    }
+    .section1 h2,p{
+        text-align: center;
+        color: white;
+        font-size: 1.6em;
+    }
+    .section2{
+        background-image: url("nad.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        padding: 8em;
+        color: white;
+    }
+    .section3{
+        background-image: url("town2.jpeg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        text-align: center;
+        padding: 4em;
+        color: white;
+        border: 2px red solid;
+    }
+    img{
+        width: 60%;
+        height: 50%
+    }
+    .section{
+        background-color: darkgrey;
+    }
+    .section4{
+        background-color: red;
+        text-align: center;
+        padding: 1em;
+    }
+    @media(max-width:768px){
+        header #branding,header span,header nav,header li,section .section1,div .img{
+            float: none;
+            text-align: center;
+            width: 100%;
+            margin: ;
+        }
+        header{
+            height: 20%;
+        }
+    }
